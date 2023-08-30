@@ -13,3 +13,5 @@ Tasks chosen : 1. Number Game.
 Update: 29/08 21:45
 My First task is completed and have uploaded the file of the same. Also I'll attach my hand written notes that I thought I should apply to the code not everything I wrote is implemented in the code as I started very late on working on this project and wasting my time on only 1 task isn't a good option for me right now but I'll add those features to the code as soon as I complete all the 3 tasks.
 
+Update: 30/08 18:30 
+Second task is completed i.e. a student grade calculator displaying the Total marks,Average percentage & Grade.
