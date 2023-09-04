@@ -15,3 +15,7 @@ My First task is completed and have uploaded the file of the same. Also I'll att
 
 Update: 30/08 18:30 
 Second task is completed i.e. a student grade calculator displaying the Total marks,Average percentage & Grade.
+
+
+Update 4/09 10:07 
+Final task of currency conversion with api is completed.
