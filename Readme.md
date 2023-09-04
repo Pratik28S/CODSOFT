@@ -46,7 +46,8 @@ I am a beginner in Java development and started working on this project recently
    - It demonstrates the use of user input, random number generation, and control flow in Java.
 
 This implementation serves as a functional Number Guessing Game and can be further enhanced with additional features and improvements.
-<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
 **Task 2: Student Grade Calculator**
 
 **1. Introduction**
@@ -81,7 +82,8 @@ This implementation serves as a functional Number Guessing Game and can be furth
    - It demonstrates the use of user input, array handling, and conditional statements in Java.
 
 This implementation serves as a functional Student Grade Calculator and can be further improved and extended with additional features and enhancements.
-<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
 **Task 3: Currency Converter with API Integration**
 
 **1. Introduction**
@@ -116,45 +118,95 @@ This implementation serves as a functional Student Grade Calculator and can be f
    - It demonstrates the use of HTTP client libraries, JSON parsing, user input handling, and currency conversion logic in Java.
 
 This implementation serves as a functional Currency Converter and can be further improved and extended with additional features and enhancements.
-<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-## Project Structure
-CodSoft
-│
-├── NumberGuessingGame
-│   ├── src
-│   │   ├── NumberGuessingGame.java
-│   │   └── (Other Java files for the game)
-│   ├── README.md
-│
-├── StudentGradeCalculator
-│   ├── src
-│   │   ├── StudentGradeCalculator.java
-│   │   └── (Other Java files for the calculator)
-│   ├── README.md
-│
-├── CurrencyConverter
-│   ├── src
-│   │   ├── CurrencyConverter.java
-│   │   └── (Other Java files for the converter)
-│   ├── README.md
-│
-├── README.md(Details of entire project)
 
 
 
-## Installation and Usage
-- Provide instructions on how to install and run your code.
+## Installation and Usage:
+**1. Number Guessing Game:**
+
+**Installation:**
+- Ensure you have Java installed on your machine. You can download it from [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
+- No additional libraries or dependencies are required.
+
+**Usage:**
+1. Open your command-line interface or terminal.
+2. Navigate to the directory containing the `NumberGuessingGame.java` file.
+3. Compile the Java file using the following command:
+   ```
+   javac NumberGuessingGame.java
+   ```
+4. Run the game with the following command:
+   ```
+   java NumberGuessingGame
+   ```
+5. Follow the on-screen instructions to play the game.
+6. Enjoy trying to guess the secret number!
+
+**2. Student Grade Calculator:**
+
+**Installation:**
+- Ensure you have Java installed on your machine. You can download it from [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
+- No additional libraries or dependencies are required.
+
+**Usage:**
+1. Open your command-line interface or terminal.
+2. Navigate to the directory containing the `StudentGradeCalculator.java` file.
+3. Compile the Java file using the following command:
+   ```
+   javac StudentGradeCalculator.java
+   ```
+4. Run the calculator with the following command:
+   ```
+   java StudentGradeCalculator
+   ```
+5. Follow the on-screen instructions:
+   - Enter the total number of subjects.
+   - Enter the marks obtained in each subject out of 100.
+6. The program will display your total marks, average percentage, and grade.
+
+**3. Currency Converter:**
+**Installation:**
+1. Ensure you have Java installed on your machine. You can download it from [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Clone or download this repository to your local machine.
+3. Open a terminal or command prompt and navigate to the directory where you've saved the project.
+4. Compile the Java file with the following command:
+   ```
+   javac CurrencyConverter.java
+   ```
+5. Run the currency converter with the following command:
+   ```
+   java CurrencyConverter
+   ```
+6. Follow the on-screen instructions:
+   - Enter the base currency code (e.g., USD).
+   - Enter the target currency code (e.g., EUR).
+   - Enter the amount you want to convert in the base currency.
+7. The program will display the converted amount in the target currency.
+
+**Using the Open Exchange Rates API:**
+- This Currency Converter uses real-time exchange rates from the Open Exchange Rates API.
+- You need an internet connection to access the API.
+- To run the program successfully, you should have an API key from Open Exchange Rates.
+- If you don't have an API key, you can obtain one by signing up at [Open Exchange Rates](https://openexchangerates.org/signup).
+- Once you have an API key, open the `CurrencyConverter.java` file and locate the line that looks like this:
+   ```java
+   HttpGet httpGet = new HttpGet("https://openexchangerates.org/api/latest.json?app_id=YOUR_APP_ID&base=" + baseCurrency);
+   ```
+- Replace `YOUR_APP_ID` with your actual API key.
+- Save the file.
+- Now, when you run the program, it will fetch real-time exchange rates from Open Exchange Rates using your API key.
+
 
 ## Acknowledgments
-- Mention any external resources, libraries, or tutorials you used.
 
-## Future Improvements
-- Outline future enhancements or features you plan to add to your code.
+I would like to express my gratitude to the [Open Exchange Rates API](https://openexchangerates.org/) for providing real-time exchange rate data, which was crucial for the functionality of this project.
 
-## Images
-- Attach hand-drawn notes or diagrams that illustrate your ideas for each task.
+Your API has been instrumental in making this currency converter possible.
 
+
+**Images**
+- The image of my hand-written notes on TASK1 (Number guessing game) has been attached in the main directory to illustrate my thought process and planning for that task.
+- For the remaining tasks (Student Grade Calculator and Currency Converter), I completed them while traveling and learned and implemented them on the go, which is why there are no hand-written notes for those tasks.
 ---
 
 **Update: 29/08 21:45**
