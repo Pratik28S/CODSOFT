@@ -205,7 +205,7 @@ Your API has been instrumental in making this currency converter possible.
 
 
 **Images**
-- The image of my hand-written notes on TASK1 (Number guessing game) has been attached in the main directory to illustrate my thought process and planning for that task.
+- The image of my hand-written notes on TASK1 (Number guessing game) has been attached in the (.pdf file) main directory to illustrate my thought process and planning for that task.
 - For the remaining tasks (Student Grade Calculator and Currency Converter), I completed them while traveling and learned and implemented them on the go, which is why there are no hand-written notes for those tasks.
 ---
 
