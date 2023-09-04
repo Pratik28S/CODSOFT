@@ -3,7 +3,20 @@
 As I am relatively new to GitHub, I'm continuously learning and working on improving my organization skills on this platform. Your understanding and feedback are greatly appreciated as I develop and enhance my proficiency.
 
 ## Introduction
-I am a beginner in Java development and started working on this project recently. This readme documents my progress and the tasks I've completed.
+Welcome to CODSOFT's Java Development Internship Project! As a beginner in the world of Java development, I embarked on this journey to enhance my programming skills. This README serves as a record of my progress and the tasks I've successfully completed.
+
+Tasks
+Throughout this project, I've tackled the following three tasks:
+
+Number Guessing Game: I've developed an interactive number guessing game. Players can test their skills by trying to guess a randomly generated secret number within a limited number of attempts. The game features multiple difficulty levels and the option to play again for endless fun.
+
+Student Grade Calculator: In this task, I've created a program that calculates total marks, average percentages, and assigns grades based on predefined criteria. It's a practical tool for students and educators to quickly assess academic performance.
+
+Currency Converter with API Integration: For this task, I've built a currency conversion program that leverages real-time exchange rates from an external API. Users can input base and target currencies along with the amount to convert, and the program provides accurate currency conversion results.
+
+Join me on this learning journey as I delve into Java development, and feel free to explore each task to see the progress and skills I've acquired along the way.
+
+---
 
 ## Tasks
 **Task 1: Number Guessing Game**
