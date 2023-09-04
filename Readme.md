@@ -1,5 +1,7 @@
 # CODSOFT - Java Development Internship Project
 
+As I am relatively new to GitHub, I'm continuously learning and working on improving my organization skills on this platform. Your understanding and feedback are greatly appreciated as I develop and enhance my proficiency.
+
 ## Introduction
 I am a beginner in Java development and started working on this project recently. This readme documents my progress and the tasks I've completed.
 
